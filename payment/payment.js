@@ -34,7 +34,7 @@ class Payment {
   }
   async subscriptionSuccessCallback(req, res) {
     const sig = req.headers["stripe-signature"];
-    const endpointSecret = "whsec_5kasOEUcAuurFyzEn7rH3bUgthnT05HS";
+    const endpointSecret = "";
 
     let event;
     console.log(req.body);
